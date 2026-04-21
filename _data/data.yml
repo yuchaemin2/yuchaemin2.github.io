@@ -102,6 +102,7 @@ experiences:
   - role: Backend & AI Developer
     time: Mar 2025 - Nov 2025
     company: EYEDIA Project (AI-powered Museum Docent Service)
+    link: "https://github.com/2025-DSWU-CS-FP/EYEDIA_BE"
     details: |
       Designed and developed an AI-powered wearable docent system that provides personalized 
       artwork explanations based on real-time user gaze tracking. Built a scalable backend by 
@@ -115,7 +116,7 @@ experiences:
       - AI Inference Server Separation: Built a dedicated FastAPI server for ML inference → decoupled from the main backend via REST APIs, improving scalability and maintainability
       - Infrastructure & Collaboration: Deployed services using Docker and AWS (EC2, S3, RDS) → collaborated in a cross-functional team using Git-based workflows
       - Publication: Co-authored a KCI-indexed paper on multimodal RAG + LLM-based docent systems (Journal of Digital Contents Society, Feb 2026)
-        DOI: https://doi.org/10.9728/dcs.2026.27.2.473
+        [DOI: 10.9728/dcs.2026.27.2.473](https://doi.org/10.9728/dcs.2026.27.2.473)
   # - role: Senior Software Engineer
   #   time: 2014 - 2015
   #   company: Google, London
