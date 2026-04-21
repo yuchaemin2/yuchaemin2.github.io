@@ -159,6 +159,17 @@ experiences:
 activities:
   title: Activites
   list:
+  - name: Coding Instructor (C, Python)
+    start: 2024.04
+    end: Present
+    organization: MJ Coding Academy
+    details: |
+      Taught programming (C, Python, block coding) to middle and high school students.
+
+      Designed and delivered project-based lessons to improve students' logical thinking
+      and problem-solving skills. Developed the ability to explain complex technical
+      concepts in a clear and structured way.
+  
   - name: GDSC (Google Developer Student Clubs) Core Member
     start: 2023.09
     end: 2024.08
@@ -181,17 +192,6 @@ activities:
 
       Collaborated on small-scale projects and technical discussions, reinforcing
       fundamental knowledge and practical development skills.
-
-  - name: Coding Instructor (C, Python)
-    start: 2024.04
-    end: Present
-    organization: MJ Coding Academy
-    details: |
-      Taught programming (C, Python, block coding) to middle and high school students.
-
-      Designed and delivered project-based lessons to improve students' logical thinking
-      and problem-solving skills. Developed the ability to explain complex technical
-      concepts in a clear and structured way.
 
   - name: Programming Mentor
     start: 2023.03
