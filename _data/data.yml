@@ -164,9 +164,8 @@ activities:
     end: Present
     organization: MJ Coding Academy
     details: |
-      Taught programming (C, Python, block coding) to middle and high school students.
-
-      Designed and delivered project-based lessons to improve students' logical thinking
+      - Taught programming (C, Python, block coding) to middle and high school students.
+      - Designed and delivered project-based lessons to improve students' logical thinking
       and problem-solving skills. Developed the ability to explain complex technical
       concepts in a clear and structured way.
   
@@ -175,10 +174,9 @@ activities:
     end: 2024.08
     organization: Duksung Women’s University
     details: |
-      Actively participated as a core member in GDSC, collaborating with peers
+      - Actively participated as a core member in GDSC, collaborating with peers
       on development projects and technical study groups.
-
-      Led a Machine Learning study group, organizing sessions and sharing knowledge
+      - Led a Machine Learning study group, organizing sessions and sharing knowledge
       on AI/ML concepts and practical implementations. Strengthened collaboration,
       communication, and problem-solving skills through team-based development.
 
@@ -187,10 +185,9 @@ activities:
     end: 2024.08
     organization: Duksung Women’s University
     details: |
-      Participated in a computer science study group focused on backend development,
+      - Participated in a computer science study group focused on backend development,
       algorithms, and system design.
-
-      Collaborated on small-scale projects and technical discussions, reinforcing
+      - Collaborated on small-scale projects and technical discussions, reinforcing
       fundamental knowledge and practical development skills.
 
   - name: Programming Mentor
@@ -198,9 +195,8 @@ activities:
     end: 2023.12
     organization: Local Children's Center & Community Programs
     details: |
-      Mentored elementary school students in basic programming concepts and computational thinking.
-
-      Provided personalized guidance and supported students in completing coding exercises,
+      - Mentored elementary school students in basic programming concepts and computational thinking.
+      - Provided personalized guidance and supported students in completing coding exercises,
       enhancing communication and mentoring skills.
 
 certifications:
