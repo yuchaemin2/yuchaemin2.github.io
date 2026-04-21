@@ -164,7 +164,7 @@ certifications:
     end: 2028
     organization: YBM
     credentialid: 102600
-    credentialurl: https://www.toeic.co.kr/
+    credentialurl: www.toeic.co.kr/
     credentialname: toeic
   #   details: |
   #     Details about cert. Lorem ipsum dolor sit amet, consectetur
@@ -202,23 +202,23 @@ awards:
   # intro: >
   #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: 2025 ICT Hanium Dream-Up Competition – 2nd Place (Minister Award)
+  - title: 2025 ICT Hanium Dream-Up Competition - 2nd Place (Minister Award)
     link: "https://github.com/2025-DSWU-CS-FP/EYEDIA_BE"
     tagline: "Developed EYEDIA, an AI-powered art docent system using LLM, RAG, YOLOv8, and FAISS, delivering personalized real-time artwork explanations."
 
-  - title: 2025 Google Korea Hardware Hackathon – 1st Place
+  - title: 2025 Google Korea Hardware Hackathon - 1st Place
     link: "#"
     tagline: "Analyzed system performance bottlenecks using Linux monitoring tools and validated improvements through quantitative benchmarking."
 
-  - title: 2025 DSWU Science & Technology Academic Festival – Grand Prize
+  - title: 2025 DSWU Science & Technology Academic Festival - Grand Prize
     link: "#"
     tagline: "Recognized for a backend-focused AI system with strong problem definition, architecture design, and technical completeness."
 
-  - title: 2024 Tourism Data Utilization Contest – 3rd Place
+  - title: 2024 Tourism Data Utilization Contest - 3rd Place
     link: "#"
     tagline: "Built a Spring Boot-based backend for a hiking and travel app integrating routes, POIs, and recommendation features."
 
-  - title: 2023 DSWU IT Hackathon – 3rd Place
+  - title: 2023 DSWU IT Hackathon - 3rd Place
     link: "#"
     tagline: "Developed a task reminder mobile app with push notifications and D-DAY tracking using a serverless Firebase backend."
 
