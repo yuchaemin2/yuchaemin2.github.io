@@ -103,36 +103,19 @@ experiences:
     time: Mar 2025 - Nov 2025
     company: EYEDIA Project (AI-powered Museum Docent Service)
     details: |
-      Designed and developed an AI-powered wearable docent service that provides
-      personalized artwork explanations based on user gaze. Led backend and AI
-      system implementation, integrating LLM and RAG pipelines into a real-time service.
+      Designed and developed an AI-powered wearable docent system that provides personalized 
+      artwork explanations based on real-time user gaze tracking. Built a scalable backend by 
+      separating AI inference from core services and enhanced explanation quality through a 
+      multimodal RAG pipeline.
 
-      Built a scalable backend architecture using Spring Boot and FastAPI by
-      separating AI inference workloads from the main server, improving system
-      performance and maintainability. Implemented RESTful APIs for user
-      authentication, artwork data management, and interaction logging, including
-      OAuth2-based social login with Spring Security.
-
-      Addressed limitations of direct LLM API usage (e.g., hallucination and lack of
-      contextual accuracy) by designing a Retrieval-Augmented Generation (RAG)
-      pipeline. Indexed artwork metadata into a FAISS vector database and dynamically
-      constructed prompts with retrieved context, significantly improving response
-      consistency and quality.
-
-      Improved object detection performance by fine-tuning a YOLOv8 model with a
-      custom-labeled dataset of artworks, achieving over 90% detection accuracy in
-      real-world exhibition environments. Developed logic to map gaze tracking data
-      with detected object bounding boxes to trigger explanations based on user focus.
-
-      Deployed the system using Docker and AWS (EC2, S3, RDS), ensuring stable
-      service operation and scalability. Collaborated in a cross-functional team
-      (backend, frontend, AI) using Git-based workflows.
-        - Designed Spring Boot + FastAPI dual-server architecture for AI service integration
-        - Implemented RAG pipeline with FAISS to reduce LLM hallucination and improve accuracy
-        - Fine-tuned YOLOv8 model achieving 90%+ detection accuracy for artwork recognition
-        - Built REST APIs and OAuth2 authentication system using Spring Security
-        - Deployed scalable backend infrastructure using Docker and AWS
-        - Co-authored a KCI-indexed paper and won multiple awards including a national competition gold prize
+      - Artwork Detection Optimization: Fine-tuned a YOLOv8 model using a custom-labeled dataset of paintings and drawings → achieved 90%+ detection accuracy and stable real-time performance in exhibition environments
+      - LLM + RAG Pipeline Design: Indexed artwork metadata (title, artist, period, technique) into a FAISS vector database → dynamically constructed prompts using retrieval results, reducing hallucination and improving response consistency
+      - Gaze-Based Interaction Logic: Mapped gaze tracking coordinates with object bounding boxes → triggered explanations when users focused on specific regions for a defined duration, enabling a hands-free UX
+      - Spring Boot Backend Development: Designed APIs for authentication, artwork management, and viewing history → implemented Spring Security with OAuth2 (Naver, Google) for secure user management
+      - AI Inference Server Separation: Built a dedicated FastAPI server for ML inference → decoupled from the main backend via REST APIs, improving scalability and maintainability
+      - Infrastructure & Collaboration: Deployed services using Docker and AWS (EC2, S3, RDS) → collaborated in a cross-functional team using Git-based workflows
+      - Publication: Co-authored a KCI-indexed paper on multimodal RAG + LLM-based docent systems (Journal of Digital Contents Society, Feb 2026)
+        DOI: https://doi.org/10.9728/dcs.2026.27.2.473
   # - role: Senior Software Engineer
   #   time: 2014 - 2015
   #   company: Google, London
