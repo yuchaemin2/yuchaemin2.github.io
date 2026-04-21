@@ -97,7 +97,7 @@ education:
   #       - Bullet point
 
 experiences:
-  title: Experiences
+  title: Projects
   info:
   - role: Backend & AI Developer
     time: Mar 2025 - Nov 2025
@@ -171,6 +171,17 @@ activities:
       on AI/ML concepts and practical implementations. Strengthened collaboration,
       communication, and problem-solving skills through team-based development.
 
+  - name: Computer Science Study Group (Corner)
+    start: 2023.09
+    end: 2024.08
+    organization: Duksung Women’s University
+    details: |
+      Participated in a computer science study group focused on backend development,
+      algorithms, and system design.
+
+      Collaborated on small-scale projects and technical discussions, reinforcing
+      fundamental knowledge and practical development skills.
+
   - name: Coding Instructor (C, Python)
     start: 2024.04
     end: Present
@@ -191,17 +202,6 @@ activities:
 
       Provided personalized guidance and supported students in completing coding exercises,
       enhancing communication and mentoring skills.
-
-  - name: Computer Science Study Group (Corner)
-    start: 2023.09
-    end: 2024.08
-    organization: Duksung Women’s University
-    details: |
-      Participated in a computer science study group focused on backend development,
-      algorithms, and system design.
-
-      Collaborated on small-scale projects and technical discussions, reinforcing
-      fundamental knowledge and practical development skills.
 
 certifications:
   title: Certifications
