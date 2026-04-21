@@ -1,0 +1,314 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Chaemin Yu
+  tagline: Backend Developer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: yuchaeminn@gmail.com
+  phone: 010 3209 8205
+  timezone: Asia/Seoul # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship:
+  website: https://yuchaemin2.github.io/ # Include the full website URL, including "http://" or "https://".
+  linkedin: yuchaemin
+  xing: 
+  github: yuchaemin2
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky:  # Specify your full Bluesky handle
+  twitter: 
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  languages:
+    title: Languages
+    info:
+    - idiom: Korean
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+    # - idiom: Spanish
+    #   level: Professional
+
+  # interests:
+  #   title: Interests
+  #   info:
+  #   - item: Climbing
+  #     link:
+
+
+  #   - item: Snowboarding
+  #     link:
+
+
+  #   - item: Cooking
+  #     link:
+
+
+career-profile:
+  title: Career Profile
+  summary: |
+    Entry-level Cloud & AI Engineer with hands-on experience in Spring Boot 
+    backend development and multimodal AI systems. Built an AI-driven art docent 
+    platform integrating YOLOv8, CLIP, and FAISS, and taught coding across 
+    multiple age groups. Seeking to grow as a cloud–infrastructure engineer 
+    by applying scalable backend skills, AI integration experience, and strong 
+    community leadership.
+education:
+  title: Education
+  info:
+  - degree: BSc in Computer Engineering
+    university: Duksung Women's University
+    time: 2021.03 - 2026.02
+  #   details: |
+  #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+  #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+  #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+  #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+  #     pretium quis, sem.
+  #       - Bullet point
+  #       - Bullet point
+  # - degree: BSc in Applied Mathematics
+  #   university: Bristol University
+  #   time: 2007 - 2011
+  #   details: |
+  #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+  #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+  #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+  #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+  #     pretium quis, sem.
+  #       - Bullet point
+  #       - Bullet point
+
+experiences:
+  title: Experiences
+  info:
+  - role: Backend & AI Developer
+    time: Mar 2025 - Nov 2025
+    company: EYEDIA Project (AI-powered Museum Docent Service)
+    details: |
+      Designed and developed an AI-powered wearable docent service that provides
+      personalized artwork explanations based on user gaze. Led backend and AI
+      system implementation, integrating LLM and RAG pipelines into a real-time service.
+
+      Built a scalable backend architecture using Spring Boot and FastAPI by
+      separating AI inference workloads from the main server, improving system
+      performance and maintainability. Implemented RESTful APIs for user
+      authentication, artwork data management, and interaction logging, including
+      OAuth2-based social login with Spring Security.
+
+      Addressed limitations of direct LLM API usage (e.g., hallucination and lack of
+      contextual accuracy) by designing a Retrieval-Augmented Generation (RAG)
+      pipeline. Indexed artwork metadata into a FAISS vector database and dynamically
+      constructed prompts with retrieved context, significantly improving response
+      consistency and quality.
+
+      Improved object detection performance by fine-tuning a YOLOv8 model with a
+      custom-labeled dataset of artworks, achieving over 90% detection accuracy in
+      real-world exhibition environments. Developed logic to map gaze tracking data
+      with detected object bounding boxes to trigger explanations based on user focus.
+
+      Deployed the system using Docker and AWS (EC2, S3, RDS), ensuring stable
+      service operation and scalability. Collaborated in a cross-functional team
+      (backend, frontend, AI) using Git-based workflows.
+        - Designed Spring Boot + FastAPI dual-server architecture for AI service integration
+        - Implemented RAG pipeline with FAISS to reduce LLM hallucination and improve accuracy
+        - Fine-tuned YOLOv8 model achieving 90%+ detection accuracy for artwork recognition
+        - Built REST APIs and OAuth2 authentication system using Spring Security
+        - Deployed scalable backend infrastructure using Docker and AWS
+        - Co-authored a KCI-indexed paper and won multiple awards including a national competition gold prize
+  # - role: Senior Software Engineer
+  #   time: 2014 - 2015
+  #   company: Google, London
+  #   details: |
+  #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+  #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+  #     Cum sociis natoque penatibus et magnis dis parturient montes,
+  #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+  #     pellentesque eu, pretium quis, sem.
+  #       - Bullet point
+  #       - Bullet point
+  # - role: UI Developer
+  #   time: 2012 - 2014
+  #   company: Amazon, London
+  #   details: |
+  #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+  #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+  #     Cum sociis natoque penatibus et magnis dis parturient montes,
+  #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+  #     pellentesque eu, pretium quis, sem.
+  #       - Bullet point
+  #       - Bullet point
+
+certifications:
+  title: Certifications
+  list:
+  - name: Toeic Speaking
+    start: 2026
+    end: 2028
+    organization: YBM
+    credentialid: 102600
+    credentialurl: https://www.toeic.co.kr/
+    credentialname: toeic
+  #   details: |
+  #     Details about cert. Lorem ipsum dolor sit amet, consectetur
+  #     adipiscing elit.
+  #     Nullam eget orci purus. Nullam ultrices neque nibh.
+  #     Aenean fermentum, felis vulputate suscipit accumsan,
+  #     sem enim bibendum augue, sed convallis arcu lacus at dui.
+  #     Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+  #     Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+  #     Praesent venenatis erat non augue suscipit consectetur.
+
+  #     Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+  #     fringilla vel. Ut euismod, sem sed vulputate venenatis,
+  #     justo diam viverra velit, sed rhoncus leo leo eu justo.
+  #     Suspendisse placerat risus ante, sed porta nisi blandit at.
+  # - name: Git learning
+  #   start: 2019
+  #   end:
+  #   organization: Microsoft
+  #   credentialid: 111-222
+  #   credentialurl: www.github.com
+  #   credentialname: Github
+  #   details: |
+  #     Older certification. Lorem ipsum dolor sit amet, consectetur
+  #     adipiscing elit.
+  #     Nullam eget orci purus. Nullam ultrices neque nibh.
+  #     Aenean fermentum, felis vulputate suscipit accumsan,
+  #     sem enim bibendum augue, sed convallis arcu lacus at dui.
+  #     Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+  #     Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+  #     Praesent venenatis erat non augue suscipit consectetur.
+
+awards:
+  title: Awards
+  # intro: >
+  #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+  - title: 2025 ICT Hanium Dream-Up Competition – 2nd Place (Minister Award)
+    link: "https://github.com/2025-DSWU-CS-FP/EYEDIA_BE"
+    tagline: "Developed EYEDIA, an AI-powered art docent system using LLM, RAG, YOLOv8, and FAISS, delivering personalized real-time artwork explanations."
+
+  - title: 2025 Google Korea Hardware Hackathon – 1st Place
+    link: "#"
+    tagline: "Analyzed system performance bottlenecks using Linux monitoring tools and validated improvements through quantitative benchmarking."
+
+  - title: 2025 DSWU Science & Technology Academic Festival – Grand Prize
+    link: "#"
+    tagline: "Recognized for a backend-focused AI system with strong problem definition, architecture design, and technical completeness."
+
+  - title: 2024 Tourism Data Utilization Contest – 3rd Place
+    link: "#"
+    tagline: "Built a Spring Boot-based backend for a hiking and travel app integrating routes, POIs, and recommendation features."
+
+  - title: 2023 DSWU IT Hackathon – 3rd Place
+    link: "#"
+    tagline: "Developed a task reminder mobile app with push notifications and D-DAY tracking using a serverless Firebase backend."
+
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#   - title: Tempo
+#     link: "#"
+#     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#   - title: Atom
+#     link: "#"
+#     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#   - title: Delta
+#     link: "#"
+#     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#   - title: The Art of Computer Programming
+#     link: "#"
+#     authors: Donald E. Knuth
+#     conference: Addison-Wesley, 1968
+
+#   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#     link: "#"
+#     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#   - title: A syntax directed compiler for Algol 60
+#     link: "#"
+#     authors: Edgar T. Irons
+#     conference: "Comm. ACM 4 (1961), 51–55"
+
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: Yareli Perez
+#     email: perezyareli@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       Alan Doe is a super employee!
+#   - person: Lara Henderson
+#     email: larah@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       I would like to work with Alan Doe again!
+
+#       He is a great employee!
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+  - name: Java & Spring Boot
+    level: 95%
+
+  - name: Python & FastAPI
+    level: 90%
+
+  - name: REST API Design & Backend Architecture
+    level: 92%
+
+  - name: AI Integration (LLM, RAG, FAISS, YOLOv8)
+    level: 88%
+
+  - name: AWS (EC2, S3, RDS) & Cloud Architecture
+    level: 85%
+
+  - name: Docker & Containerization
+    level: 80%
+
+  - name: SQL & Database Design (MySQL, MariaDB)
+    level: 80%
+
+  - name: Git & Collaboration Tools (GitHub, Jira, Notion)
+    level: 90%
+
+  - name: Linux & Network (TCP/IP)
+    level: 60%
+
+footer: >
+  Chaemin Yu | Backend & AI Engineer Portfolio
