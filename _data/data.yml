@@ -336,26 +336,17 @@ skills:
   - name: Python & FastAPI
     level: 90%
 
-  - name: REST API Design & Backend Architecture
-    level: 92%
-
   - name: AI Integration (LLM, RAG, FAISS, YOLOv8)
     level: 88%
 
   - name: AWS (EC2, S3, RDS) & Cloud Architecture
     level: 85%
 
-  - name: Docker & Containerization
-    level: 80%
-
   - name: SQL & Database Design (MySQL, MariaDB)
     level: 80%
 
   - name: Git & Collaboration Tools (GitHub, Jira, Notion)
     level: 90%
-
-  - name: Linux & Network (TCP/IP)
-    level: 60%
 
 footer: >
   Chaemin Yu | Backend & AI Engineer Portfolio
