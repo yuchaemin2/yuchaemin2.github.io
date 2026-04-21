@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Chaemin Yu
-title: Bakend Developer
+title: Backend Developer
 email: yuchaeminn@gmail.com
 # email_title: Email (Email title override)
 phone: +82 10-3209-8205
@@ -19,19 +19,19 @@ website: https://yuchaemin2.github.io/
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  yuchaemin2
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
 linkedin_username: yuchaemin
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -50,7 +50,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.png
+about_profile_image: images/profile.JPG
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
