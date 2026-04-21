@@ -230,7 +230,7 @@ awards:
   #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
   - title: 2025 ICT Hanium Dream-Up Competition - 2nd Place (Minister Award)
-    link: "https://github.com/2025-DSWU-CS-FP/EYEDIA_BE"
+    link: "https://github.com/2025-DSWU-CS-FP"
     tagline: "Developed EYEDIA, an AI-powered art docent system using LLM, RAG, YOLOv8, and FAISS, delivering personalized real-time artwork explanations."
 
   - title: 2025 Google Korea Hardware Hackathon - 1st Place
@@ -242,11 +242,11 @@ awards:
     tagline: "Recognized for a backend-focused AI system with strong problem definition, architecture design, and technical completeness."
 
   - title: 2024 Tourism Data Utilization Contest - 3rd Place
-    link: "#"
+    link: "https://github.com/Phytoncidee/BE"
     tagline: "Built a Spring Boot-based backend for a hiking and travel app integrating routes, POIs, and recommendation features."
 
   - title: 2023 DSWU IT Hackathon - 3rd Place
-    link: "#"
+    link: "https://github.com/2023-CodewithDuksung/2023-CodeWithDS-18"
     tagline: "Developed a task reminder mobile app with push notifications and D-DAY tracking using a serverless Firebase backend."
 
 # oss:
