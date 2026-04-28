@@ -117,6 +117,41 @@ experiences:
       - Infrastructure & Collaboration: Deployed services using Docker and AWS (EC2, S3, RDS) → collaborated in a cross-functional team using Git-based workflows
       - Publication: Co-authored a KCI-indexed paper on multimodal RAG + LLM-based docent systems (Journal of Digital Contents Society, Feb 2026)
         [DOI: 10.9728/dcs.2026.27.2.473](https://doi.org/10.9728/dcs.2026.27.2.473)
+  - role: PM & Backend
+    time: Mar 2024 - Sep 2024
+    company: Sanhaenglog (Hiking & Tourism Integrated Platform)
+    link: "https://github.com/Phytoncidee/BE"
+    details: |
+      Built a data-driven platform that integrates hiking, tourism, weather, and safety information 
+      using public APIs, providing personalized recommendations and activity tracking features. 
+      Led the backend development and designed a unified data layer for scalable service delivery.
+
+      - Public Data Integration: Aggregated and normalized data from multiple public APIs (TourAPI, Korea Forest Service, Meteorological Administration) → designed a unified REST API for consistent data access
+      - Integrated Search System: Combined hiking course data (difficulty, distance, duration) with nearby tourism, restaurants, and accommodations → enabled route-aware information retrieval
+      - Recommendation Engine: Implemented preference-based filtering (difficulty, distance, duration) → provided personalized hiking and travel course recommendations
+      - GPS-based Tracking: Developed real-time location tracking and summit verification logic → enabled hiking record management and completion certification
+      - Weather & Safety Features: Integrated real-time weather and hazard information per hiking route → improved user safety and decision-making
+      - Community Features: Built user-generated content system for reviews and information sharing → supported continuous data accumulation and service engagement
+      - Backend Architecture: Designed and implemented core backend services using Spring Boot, MySQL, and AWS → handled API design, data processing, and business logic
+      - Award: Excellence Prize (3rd Place) in Korea Tourism Data Contest (2024)
+  - role: Backend Developer & Documentation Lead
+    time: Apr 2024 - Aug 2024
+    company: AI-powered Language Learning Service for Students with Intellectual Disabilities
+    link: "https://github.com/VLC2024/BE"
+    details: |
+      Developed an AI-powered language learning platform that combines NLP and image generation 
+      (DALL·E 3) to help students with intellectual disabilities better understand abstract vocabulary 
+      through visualized content. Led backend development and documentation strategy to improve 
+      system reliability and team collaboration.
+
+      - AI-based Learning Pipeline: Integrated ChatGPT API and DALL·E 3 to generate context-aware sentences and corresponding images → enhanced comprehension of abstract vocabulary through multimodal learning
+      - Backend Development: Built RESTful APIs using Spring Boot and MySQL (RDS) → handled user data, learning content, and request processing
+      - Cloud Infrastructure: Deployed backend services on AWS EC2 and managed CI/CD pipelines using GitHub Actions → ensured stable and automated deployment
+      - Content Generation Logic: Designed prompt engineering strategy for consistent text-image generation → improved output relevance and usability for educational purposes
+      - Documentation Leadership: Led documentation efforts (meeting notes, functional specs, screen definitions) → improved communication clarity and collaboration efficiency across team members
+      - Issue-driven Documentation: Created ad-hoc technical documents for problem-solving → structured issue resolution process and reduced communication gaps
+      - Publication & IP: Published a paper at KIPS (Oct 2024) and registered the program copyright through Korea Copyright Commission
+        (https://koreascience.or.kr/article/CFKO202433161680857.page)
   # - role: Senior Software Engineer
   #   time: 2014 - 2015
   #   company: Google, London
